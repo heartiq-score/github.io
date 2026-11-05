@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <title>Redirecting...</title>
+
+    <!-- Cloudflare Web Analytics -->
+    <script type='module'
+            src='https://static.cloudflareinsights.com/beacon.min.js'
+            data-cf-beacon='{"token": "f3f00315c93345db8669563782f32513"}'></script>
+    <style type="text/css">
+        .container {
+            display: grid;
+            place-items: center;
+            height: 90vh;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <p>Redirecting to <a href="https://heartiqscore.com">HeartIQ Score</a></p>
+    </div>
+    <script>
+        // Wait 1.5 seconds to ensure the analytics beacon has time to fire
+        setTimeout(() => {
+            window.location.replace("https://heartiqscore.com");
+        }, 1500); 
+    </script>
+</body>
+
+</html>
